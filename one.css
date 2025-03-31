@@ -1,0 +1,283 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1425px;
+    }
+    .body{
+        max-width: 1425px;
+    }
+}
+
+body{
+    font-family: "Inter", sans-serif;;
+}
+.navbar1{
+    background-color: #5951A5;
+    height: 100px;
+    color: white;
+}
+
+.nav-bg{
+    background-color: #5951A5;
+}
+/* .logo{
+   
+} */
+
+.button{
+    background-color: #5548CF;
+    border:none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius:8px;
+    border: 2px solid #5548CF;
+    padding-right: 0px;
+}
+
+
+.out-button{
+    background-color: white;
+    color:#5548CF;
+    border: 2px solid #5548CF;
+    border-radius:8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-button{
+    background-color:#29207A;
+    border:none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius:8px;
+}
+
+.color{
+    color: white;
+}
+
+.hero-section {
+     background: linear-gradient(#29207A,#4B3AE0);
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.hfs-32{
+    font-size: 32px;
+    color: #E43F3F;
+    font-weight: 600;
+    margin-bottom:0px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-32{
+    font-size:32px;
+}
+.code-img{
+    width:600px;
+    height: 400px;
+}
+
+.out-button{
+    background-color: white;
+    color:#5548CF;
+    border: 2px solid #5548CF;
+    border-radius:8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #2C2283;
+}
+
+.links li{
+    margin:0px;
+    color: white;
+}
+
+.links li a{
+    list-style: none;
+    color: white;
+    font-weight: 550;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+@media(max-width:991px){
+    .heading{
+        font-size: 36px;
+    }
+    .h-info{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:575px){
+    .heading,.h-info{
+    margin-bottom: 0px;   
+    }   
+    .heading{
+        font-size: 32px;
+    }
+    .h-info{
+        font-size: 20px;
+    }   
+    .button{
+        font-size:18px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+ .fs-28{
+    font-size:18px;
+ }
+}
+
+@media(max-width:576px){
+    .fs-28{
+       font-size:17px;
+       font-weight: 500;
+    }
+   }
+
+   
+
+   /* /Profile/ */
+   .d-bg-color{
+    background: #D8CECE;
+   }
+   /* .form-color{} */
+
+   .star{
+    color: #E43F3F;
+   }
+
+   .form-control{
+    background-color:#D9D9D9 ;
+   }
+   .line{
+    border: 1px solid #000000
+   }
+
+input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    /*  slider progress trick  */
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  /* Track: webkit browsers */
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #E8C5A2;
+    border-radius: 16px;
+  }
+  
+  /* Track: Mozilla Firefox */
+  input[type="range"]::-moz-range-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+  }
+  
+  /* Thumb: webkit */
+  input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    height: 15px;
+    width: 10px;
+    background-color: #E4882B;
+    border-radius: 50%;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #E4882B;
+  }
+  
+  
+  /* Thumb: Firefox */
+  input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #E4882B;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #E4882B;
+  }
+  
+  @media(min-width:992px){
+    .mLeft{
+        margin-left: 320px;
+      }
+  }
+
+  .mLeft{
+  background-color: #5951A5;
+ }
+ 
+
+ .profile-bg{
+    background: url("../images/profileBG.png") no-repeat bottom;
+    height: 200px;
+ }
+
+ .profile-picture{
+  margin-top: 75px;
+  margin-left: 60px;
+ }
+
+ @media(max-width:600px){
+ .profile-bg{
+    height: 130px;
+ }
+
+ .profile-picture{
+  margin-top: 55px;
+  margin-left: 40px;
+  height: 100px;
+ }
+ }
+
+ 
+ @media(min-width:1200px){
+    .mLeft{
+        margin-left: 500px;
+      }
+  }
+   
+ @media(min-width:1400px){
+    .mLeft{
+        margin-left: 760px;
+      }
+  }
+
+  .progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-22{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.fw-500{
+    font-weight: 500;
+}
