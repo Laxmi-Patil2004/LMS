@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #563d7c;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.update-btn,
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.profile-pic {
+    font-size: 50px;
+    margin-right: 20px;
+}
+.update-btn {
+    background: #563d7c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    .update-btn {
+        float: right;
+    }
+    .button-container {
+        text-align: right;
+    }
+    
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left, .right {
+    width: 100%;
+    max-width: 380px;
+}
+.status.complete {
+    color: green;
+}
+.status.pending {
+    color: orange;
+}
+@media (max-width: 600px) {
+    .header, .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+}
+.logo-img {
+    width: 50px;  
+    height: auto; 
+    float: left;  
+    margin-right: 10px; 
+}
